@@ -1,0 +1,61 @@
+1* - Method isn't specified.
+2* - Method isn't found.
+3* - Token isn't specified.
+4* - Wrong access_token.
+5* - There is no communication with the database.
+6* - Use HTTPS protocol.
+7* - Access denied.
+8* - Method disabled.
+9* - Error in parameters.
+10 - User isn't found.
+11 - Date isn't specified.
+12 - Date in wrong format.
+13 - Vk id isn't specified
+14 - User already created.
+15 - Mine isn't specified.
+16 - User with such minecraft_uuid already in base.
+17 - Too many requests.
+18 - Points isn't specified.
+19 - The number has to be positive.
+20 - It not number.
+21 - There isn't enough means.
+22 - The min parameter - 3.
+23 - The max parameter - 50.
+24 - Leaderboard isn't loaded.
+25 - Mav id isn't specified.
+26 - No active members.
+27 - ConfirmMethod isn't specified.
+28 - Service isn't specified.
+29 - Comment isn't specified.
+30 - Purpose isn't specified or not in a format.
+31 - Payments history isn't loaded.
+32 -
+33 - Discord id isn't specified.
+34 - User with such discord_id already in base.
+35 - User already visited this game.
+36 - User didn't visit this game.
+37 - There are no operations on this purpose.
+38 - No identifier is specified.
+39 -
+40 - It is impossible to ban this account.
+41 - Account isn't banned.
+42 - Account already banned.
+43 - Account already confirmed.
+44 - The account shouldn't be banned.
+45* - Service isn't found.
+46* - This service isn't available for you.
+47* - You cannot use this access_token from this IP address.
+48 - Role isn't found.
+49 - You can't give this role.
+50 - Role already set.
+51 -
+52 - Minecraft uuid isn't added.
+53 - There are no banned users.
+54 - Minecraft_uuid already such.
+55 - You can't interact with this account.
+56 - There were no games.
+57 - Game isn't found.
+58 - User didn't visit games or they weren't.
+59 - User with such vk_user_id already in base.
+60 -
+61 - The user didn't carry out daily limit.
