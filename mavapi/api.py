@@ -1,5 +1,7 @@
 from mavapi.exceptions import MAVAPIError,MAVAPIAuthError
 
+__version__ = '1.0.6'
+
 class API:
     import requests
     import random
@@ -8,7 +10,7 @@ class API:
     import base64
 
     # API сервер MAV
-    server = 'https://mav-server.ru/api?'
+    server = '' # Укажите конечный сервер MAV
     access_token = None
 
     def getResponse(url, data=None):
