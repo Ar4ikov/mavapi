@@ -14,8 +14,6 @@ class API:
     def getResponse(url, data=None):
         result = API.requests.post(url, data=data)
         result = result.text
-        result = result.replace('true', '1')
-        result = result.replace('null', 'None')
         result = API.re.sub('true','1',result)
         result = API.re.sub('false', '0', result)
         result = API.re.sub('null', 'None', result)
