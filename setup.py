@@ -1,10 +1,11 @@
 from distutils.core import setup
+import mavapi.api
 
 setup(
-    name='mavapi',
-    version='1.0.2',
+    name='mav_api',
+    version=mavapi.api.__version__,
     packages=['mavapi'],
-    url='https://github.com/Ar4ikov/mavapi/',
+    url='https://github.com/Ar4ikov/mavapi',
     license='Apache 2.0',
     author='Nikita Archikov',
     author_email='bizy18588@gmail.com',
