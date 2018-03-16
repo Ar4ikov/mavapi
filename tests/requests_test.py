@@ -1,19 +1,28 @@
+"""
+
+    Тест #1. Получение ответа от MAV сервера и
+    использование методов и параметров к ним
+
+"""
+
+# Подключаем модуль
 import mavapi
-'''
-    Тест #2. Запросы к API
-    Повторяем процедуру из теста #1
-'''
 
+# Создаем экземпляр класса API
 api = mavapi.API('сервер')
-try:
-    access_token = api.Auth('access_token')
-except mavapi.MAVAPIAuthError as error:
-    print(str(error))
-else:
-    '''
-        method -> обязательный параметр, указывает, к какому методу мы хотим обратиться
-        после метода идут кварги, указывайте в них всё, что требует от Вас API
-    '''
 
-    getTokenPerms = api.getRequest(method='getTokenPerms')
-    getUser = api.getRequest(method='getUser', mav_id=16)
+# Чтобы отбратиться к методу, используйте следующую схему
+#
+#   api.getUser(vkid=1)
+#  |___|_____| |______|----- Данные к методу
+#    |    |
+#    |    |_____+- искомый метод
+#    |
+# экземпляр
+#
+
+# Получим права токена
+getTokenPerms = api.getTokenPerms()
+
+# Получение данных о пользователе
+getUser = api.getUser(mav_id=16)
