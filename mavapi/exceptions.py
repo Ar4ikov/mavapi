@@ -1,9 +1,6 @@
 class MAVAPIExceptions(Exception):
     pass
 
-class MAVAPIAuthError(MAVAPIExceptions):
-    pass
-
 class MAVAPIError(MAVAPIExceptions):
 
     WRONG_ACCESSTOKEN = {'status': 'error', 'error_code': 4, 'error_msg': 'Wrong access_token.'}
