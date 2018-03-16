@@ -9,7 +9,7 @@
 import mavapi
 
 # Создаем экземпляр класса API
-api = mavapi.API('сервер')
+api = mavapi.API(access_token='токен', server='сервер')
 
 # Чтобы отбратиться к методу, используйте следующую схему
 #
