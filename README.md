@@ -12,13 +12,19 @@
 ### Установка
 
 Для установки потребуется иметь руки
-```shell
+```bash
 pip install mav_api
 ```
 
 Хотите установить определенную версию? используйте `==version`, где version - версия
-```shell
+```bash
 pip install mav_api==2.2.1
+```
+
+Вам может понадобиться установить некоторые зависимости, если `pip` не установит их сам
+```bash
+pip install asyncio
+pip install aiohttp
 ```
 
 ---
