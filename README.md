@@ -34,6 +34,9 @@ import mavapi
 # Создаем экземпляр класса API
 api = mavapi.API(access_token='токен', server='сервер')
 ```
+где:
+- access_token - Access Token юзера
+- server - Сервер MAV API
 
 Обратимся к методу `getUser` с параметром ***mav_id*** = 16
 ```python
